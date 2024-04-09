@@ -1,0 +1,1995 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2d5ed808b1c0001ab551121be0945872 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2d5ed808b1c0001ab551121be0945872" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2d5ed808b1c0001ab551121be0945872 = L.map(
+                "map_2d5ed808b1c0001ab551121be0945872",
+                {
+                    center: [10.468542262637362, 78.7151071422825],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_2d5ed808b1c0001ab551121be0945872);
+
+            
+
+        
+    
+            var tile_layer_75ac08fac84b6e7071b79f83cd42a295 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_75ac08fac84b6e7071b79f83cd42a295.addTo(map_2d5ed808b1c0001ab551121be0945872);
+        
+    
+            var marker_cluster_6f96d34b582385b4dd51416a07663572 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_666a08999da570e895ea2a96041a2985 = L.marker(
+                [13.0728321, 80.2576906],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_fdf112d4b1f1fc0eb8e68d3b9fb87c44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea28e567f207267ab473092c835ec85f = $(`<div id="html_ea28e567f207267ab473092c835ec85f" style="width: 100.0%; height: 100.0%;">Radisson Blu Hotel Chennai City Centre</div>`)[0];
+                popup_fdf112d4b1f1fc0eb8e68d3b9fb87c44.setContent(html_ea28e567f207267ab473092c835ec85f);
+            
+        
+
+        marker_666a08999da570e895ea2a96041a2985.bindPopup(popup_fdf112d4b1f1fc0eb8e68d3b9fb87c44)
+        ;
+
+        
+    
+    
+            var marker_16d627346780ef7be8678d1177a03298 = L.marker(
+                [13.0316473, 80.2700166],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_358c503722721ea364dea5ef30f4d0e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b2e5e33c9523b00611be971cf39b346 = $(`<div id="html_4b2e5e33c9523b00611be971cf39b346" style="width: 100.0%; height: 100.0%;">Hotel Savera</div>`)[0];
+                popup_358c503722721ea364dea5ef30f4d0e9.setContent(html_4b2e5e33c9523b00611be971cf39b346);
+            
+        
+
+        marker_16d627346780ef7be8678d1177a03298.bindPopup(popup_358c503722721ea364dea5ef30f4d0e9)
+        ;
+
+        
+    
+    
+            var marker_0c361c78160ba9ae7fee5b55d8a09ba6 = L.marker(
+                [13.0244783, 80.253937],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_8eb719b6539e69dc8e5ccaefdc1b0710 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_beab41cf4144a864e418d429302c75a3 = $(`<div id="html_beab41cf4144a864e418d429302c75a3" style="width: 100.0%; height: 100.0%;">The Leela Palace Chennai</div>`)[0];
+                popup_8eb719b6539e69dc8e5ccaefdc1b0710.setContent(html_beab41cf4144a864e418d429302c75a3);
+            
+        
+
+        marker_0c361c78160ba9ae7fee5b55d8a09ba6.bindPopup(popup_8eb719b6539e69dc8e5ccaefdc1b0710)
+        ;
+
+        
+    
+    
+            var marker_5121569a0c39f694cdfed454eab89c9f = L.marker(
+                [-37.6460395, 145.3753155],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_219c084d1946f2d5c56b0d45f501a472 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69b9fa2f9fb78979e6662233d10cc77d = $(`<div id="html_69b9fa2f9fb78979e6662233d10cc77d" style="width: 100.0%; height: 100.0%;">Ibis Chennai City Centre - An Accor Brand</div>`)[0];
+                popup_219c084d1946f2d5c56b0d45f501a472.setContent(html_69b9fa2f9fb78979e6662233d10cc77d);
+            
+        
+
+        marker_5121569a0c39f694cdfed454eab89c9f.bindPopup(popup_219c084d1946f2d5c56b0d45f501a472)
+        ;
+
+        
+    
+    
+            var marker_a2a13d93a66acd03d4631bae2bcafb5f = L.marker(
+                [12.9174426, 80.21649018230858],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_627ec776090d114306f7c154bde51495 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_472a7f483ca056b242e1f58de20a0e27 = $(`<div id="html_472a7f483ca056b242e1f58de20a0e27" style="width: 100.0%; height: 100.0%;">Ibis Chennai OMR - An Accor Brand</div>`)[0];
+                popup_627ec776090d114306f7c154bde51495.setContent(html_472a7f483ca056b242e1f58de20a0e27);
+            
+        
+
+        marker_a2a13d93a66acd03d4631bae2bcafb5f.bindPopup(popup_627ec776090d114306f7c154bde51495)
+        ;
+
+        
+    
+    
+            var marker_3538d98fcad42aec7352716995286a7d = L.marker(
+                [12.9705053, 80.2615033],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_f58c20555509ba4748dac15344d8989a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29de70af6e857b0049a88d4a52f80e57 = $(`<div id="html_29de70af6e857b0049a88d4a52f80e57" style="width: 100.0%; height: 100.0%;">Turyaa Chennai - OMR</div>`)[0];
+                popup_f58c20555509ba4748dac15344d8989a.setContent(html_29de70af6e857b0049a88d4a52f80e57);
+            
+        
+
+        marker_3538d98fcad42aec7352716995286a7d.bindPopup(popup_f58c20555509ba4748dac15344d8989a)
+        ;
+
+        
+    
+    
+            var marker_41fbfb90d668e74fd9fd96e7b0072346 = L.marker(
+                [-37.6460395, 145.3753155],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_1b5af0a23eecf5143a65f6e23fd3bcdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_102ac2942c682b871839098cf455d842 = $(`<div id="html_102ac2942c682b871839098cf455d842" style="width: 100.0%; height: 100.0%;">Hablis</div>`)[0];
+                popup_1b5af0a23eecf5143a65f6e23fd3bcdd.setContent(html_102ac2942c682b871839098cf455d842);
+            
+        
+
+        marker_41fbfb90d668e74fd9fd96e7b0072346.bindPopup(popup_1b5af0a23eecf5143a65f6e23fd3bcdd)
+        ;
+
+        
+    
+    
+            var marker_7e0886cf24a7aec74e06216d1b1b3128 = L.marker(
+                [13.0294483, 80.2309064],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_854fdeb5ef68be3a2d225e61882b0004 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c71c99fa3e23a7344e5ccbe474f04a50 = $(`<div id="html_c71c99fa3e23a7344e5ccbe474f04a50" style="width: 100.0%; height: 100.0%;">M CENTRAL</div>`)[0];
+                popup_854fdeb5ef68be3a2d225e61882b0004.setContent(html_c71c99fa3e23a7344e5ccbe474f04a50);
+            
+        
+
+        marker_7e0886cf24a7aec74e06216d1b1b3128.bindPopup(popup_854fdeb5ef68be3a2d225e61882b0004)
+        ;
+
+        
+    
+    
+            var marker_36fc730775b9d2b9b44baa8d866da0e6 = L.marker(
+                [12.9174426, 80.21649018230858],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_fde17a70fc949aef091c4559886f21d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5eb13b6b86bb9e2ff678ae3a5c0c98bc = $(`<div id="html_5eb13b6b86bb9e2ff678ae3a5c0c98bc" style="width: 100.0%; height: 100.0%;">Citadines OMRChennai</div>`)[0];
+                popup_fde17a70fc949aef091c4559886f21d5.setContent(html_5eb13b6b86bb9e2ff678ae3a5c0c98bc);
+            
+        
+
+        marker_36fc730775b9d2b9b44baa8d866da0e6.bindPopup(popup_fde17a70fc949aef091c4559886f21d5)
+        ;
+
+        
+    
+    
+            var marker_870ffd09191df6cb463c4e7958ad65d9 = L.marker(
+                [13.0087095, 80.2203646],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_fb6f433a05318e40d98ecdce620c37a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49f39b3210a077d6af35655e44e074ff = $(`<div id="html_49f39b3210a077d6af35655e44e074ff" style="width: 100.0%; height: 100.0%;">ITC Grand Chola - A Luxury Collection Hotel</div>`)[0];
+                popup_fb6f433a05318e40d98ecdce620c37a1.setContent(html_49f39b3210a077d6af35655e44e074ff);
+            
+        
+
+        marker_870ffd09191df6cb463c4e7958ad65d9.bindPopup(popup_fb6f433a05318e40d98ecdce620c37a1)
+        ;
+
+        
+    
+    
+            var marker_2ff033ec7fbef17f5bc9054707981d28 = L.marker(
+                [13.0294483, 80.2309064],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_a8d17f9bfca2f9611a3c0ad51b75af9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d18b2a13ac1f042b25798e743a2cc1b = $(`<div id="html_1d18b2a13ac1f042b25798e743a2cc1b" style="width: 100.0%; height: 100.0%;">UPAR T Nagar Like a 3</div>`)[0];
+                popup_a8d17f9bfca2f9611a3c0ad51b75af9b.setContent(html_1d18b2a13ac1f042b25798e743a2cc1b);
+            
+        
+
+        marker_2ff033ec7fbef17f5bc9054707981d28.bindPopup(popup_a8d17f9bfca2f9611a3c0ad51b75af9b)
+        ;
+
+        
+    
+    
+            var marker_6c38b8ed3b6c1c3b1359194ca40dd95f = L.marker(
+                [12.8330267, 80.228884],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_7088351cdfa06e2294937c3b72d4c828 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd337d847206be23ee6be70a07c7e24a = $(`<div id="html_fd337d847206be23ee6be70a07c7e24a" style="width: 100.0%; height: 100.0%;">Regenta Central RS Chennai SIPCOT OMR</div>`)[0];
+                popup_7088351cdfa06e2294937c3b72d4c828.setContent(html_fd337d847206be23ee6be70a07c7e24a);
+            
+        
+
+        marker_6c38b8ed3b6c1c3b1359194ca40dd95f.bindPopup(popup_7088351cdfa06e2294937c3b72d4c828)
+        ;
+
+        
+    
+    
+            var marker_26a560c46c3123bbc1a0ba088fdd913a = L.marker(
+                [13.0294483, 80.2309064],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_dd65acefc3fb3fbf67e4640b1e5b9c75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bf9c3d68afd3b2dfd44475dca6a127b = $(`<div id="html_3bf9c3d68afd3b2dfd44475dca6a127b" style="width: 100.0%; height: 100.0%;">The Residency</div>`)[0];
+                popup_dd65acefc3fb3fbf67e4640b1e5b9c75.setContent(html_3bf9c3d68afd3b2dfd44475dca6a127b);
+            
+        
+
+        marker_26a560c46c3123bbc1a0ba088fdd913a.bindPopup(popup_dd65acefc3fb3fbf67e4640b1e5b9c75)
+        ;
+
+        
+    
+    
+            var marker_ddd5de01d1331ff430f16d142a6cd622 = L.marker(
+                [12.9536397, 80.1628158],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_643be9e140693c2359f0415a9f33027f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1124428f162430106d5809096e4d347d = $(`<div id="html_1124428f162430106d5809096e4d347d" style="width: 100.0%; height: 100.0%;">Venture Park</div>`)[0];
+                popup_643be9e140693c2359f0415a9f33027f.setContent(html_1124428f162430106d5809096e4d347d);
+            
+        
+
+        marker_ddd5de01d1331ff430f16d142a6cd622.bindPopup(popup_643be9e140693c2359f0415a9f33027f)
+        ;
+
+        
+    
+    
+            var marker_08ef645f3fe6defa82d4e7a49ae7ed24 = L.marker(
+                [13.1115484, 80.1846272],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_e2ee60280baed1576cc3be729b4d3788 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b613091b49ca9079be2b7613f82cf433 = $(`<div id="html_b613091b49ca9079be2b7613f82cf433" style="width: 100.0%; height: 100.0%;">Bluivy Serviced Apartments</div>`)[0];
+                popup_e2ee60280baed1576cc3be729b4d3788.setContent(html_b613091b49ca9079be2b7613f82cf433);
+            
+        
+
+        marker_08ef645f3fe6defa82d4e7a49ae7ed24.bindPopup(popup_e2ee60280baed1576cc3be729b4d3788)
+        ;
+
+        
+    
+    
+            var marker_adb972cc941d2f2cc72d1d148014fb6b = L.marker(
+                [41.87856185, -87.66715388800594],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_fa902ad57b3905a62e08e3d4a5059f45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a300c95e22704821042f80d0009993c = $(`<div id="html_8a300c95e22704821042f80d0009993c" style="width: 100.0%; height: 100.0%;">Taj Coromandel, Chennai</div>`)[0];
+                popup_fa902ad57b3905a62e08e3d4a5059f45.setContent(html_8a300c95e22704821042f80d0009993c);
+            
+        
+
+        marker_adb972cc941d2f2cc72d1d148014fb6b.bindPopup(popup_fa902ad57b3905a62e08e3d4a5059f45)
+        ;
+
+        
+    
+    
+            var marker_1c4357dc14c35ca15299966bcc604e51 = L.marker(
+                [13.020817, 80.2239536],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_72f2adb5bff4e8921ca68649c902b90f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cebcfeade819e4c349b46496183aa03 = $(`<div id="html_5cebcfeade819e4c349b46496183aa03" style="width: 100.0%; height: 100.0%;">Lemon Tree Hotel Chennai</div>`)[0];
+                popup_72f2adb5bff4e8921ca68649c902b90f.setContent(html_5cebcfeade819e4c349b46496183aa03);
+            
+        
+
+        marker_1c4357dc14c35ca15299966bcc604e51.bindPopup(popup_72f2adb5bff4e8921ca68649c902b90f)
+        ;
+
+        
+    
+    
+            var marker_4b0aba46504b5a1d4207ab19e04a321f = L.marker(
+                [13.0316473, 80.2700166],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_5d4fcb4dd287e2a76484fe45e30c295c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0786a5846f657c1eeb13b78889d102fd = $(`<div id="html_0786a5846f657c1eeb13b78889d102fd" style="width: 100.0%; height: 100.0%;">New woodlands Hotel</div>`)[0];
+                popup_5d4fcb4dd287e2a76484fe45e30c295c.setContent(html_0786a5846f657c1eeb13b78889d102fd);
+            
+        
+
+        marker_4b0aba46504b5a1d4207ab19e04a321f.bindPopup(popup_5d4fcb4dd287e2a76484fe45e30c295c)
+        ;
+
+        
+    
+    
+            var marker_f430c4ac492447aaebd6f31b18025664 = L.marker(
+                [12.9174426, 80.21649018230858],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_b69a862cf5c613c8c2cda6c935bccbf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97a5fd87dd6a99f9ec74c806275eb118 = $(`<div id="html_97a5fd87dd6a99f9ec74c806275eb118" style="width: 100.0%; height: 100.0%;">Four Points by Sheraton Chennai OMR</div>`)[0];
+                popup_b69a862cf5c613c8c2cda6c935bccbf1.setContent(html_97a5fd87dd6a99f9ec74c806275eb118);
+            
+        
+
+        marker_f430c4ac492447aaebd6f31b18025664.bindPopup(popup_b69a862cf5c613c8c2cda6c935bccbf1)
+        ;
+
+        
+    
+    
+            var marker_bb540ec14df52727443df964f81e5b9d = L.marker(
+                [10.0102273, 77.1515871],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_e7a42f377a2f7892a421e7d623bdd2b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b20869fb5a5ce634656a9239047f8497 = $(`<div id="html_b20869fb5a5ce634656a9239047f8497" style="width: 100.0%; height: 100.0%;">MGM Beach Resorts (15Kms before Mahabalipuram)</div>`)[0];
+                popup_e7a42f377a2f7892a421e7d623bdd2b2.setContent(html_b20869fb5a5ce634656a9239047f8497);
+            
+        
+
+        marker_bb540ec14df52727443df964f81e5b9d.bindPopup(popup_e7a42f377a2f7892a421e7d623bdd2b2)
+        ;
+
+        
+    
+    
+            var marker_913fafdc8b527192c41c8a65fba78ee3 = L.marker(
+                [12.8330267, 80.228884],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_a733ad28fe1f62a6e7a8c0c2ff96b7c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9789db5a98a92468bad42e32c87c4282 = $(`<div id="html_9789db5a98a92468bad42e32c87c4282" style="width: 100.0%; height: 100.0%;">Ibis Chennai SIPCOT - An Accor Brand</div>`)[0];
+                popup_a733ad28fe1f62a6e7a8c0c2ff96b7c6.setContent(html_9789db5a98a92468bad42e32c87c4282);
+            
+        
+
+        marker_913fafdc8b527192c41c8a65fba78ee3.bindPopup(popup_a733ad28fe1f62a6e7a8c0c2ff96b7c6)
+        ;
+
+        
+    
+    
+            var marker_ef848cdf7aedebd1adeb3e9a620878fb = L.marker(
+                [13.0294483, 80.2309064],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_b57c72bf6c641c4e1a44518d9340ce12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09ec5190e1e5303b1e85ee04bba95b29 = $(`<div id="html_09ec5190e1e5303b1e85ee04bba95b29" style="width: 100.0%; height: 100.0%;">Grand Chennai by GRT Hotels</div>`)[0];
+                popup_b57c72bf6c641c4e1a44518d9340ce12.setContent(html_09ec5190e1e5303b1e85ee04bba95b29);
+            
+        
+
+        marker_ef848cdf7aedebd1adeb3e9a620878fb.bindPopup(popup_b57c72bf6c641c4e1a44518d9340ce12)
+        ;
+
+        
+    
+    
+            var marker_f18137cf446088832684ebf92f1fc063 = L.marker(
+                [13.0728321, 80.2576906],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_353b8cbadcfb4a7daf0a5ea65f81087d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f0808cc1c79fcaf413e5d4b34b6736b = $(`<div id="html_9f0808cc1c79fcaf413e5d4b34b6736b" style="width: 100.0%; height: 100.0%;">The Ambassador Pallava</div>`)[0];
+                popup_353b8cbadcfb4a7daf0a5ea65f81087d.setContent(html_9f0808cc1c79fcaf413e5d4b34b6736b);
+            
+        
+
+        marker_f18137cf446088832684ebf92f1fc063.bindPopup(popup_353b8cbadcfb4a7daf0a5ea65f81087d)
+        ;
+
+        
+    
+    
+            var marker_ce33b82af555b9a772d6222919a557c9 = L.marker(
+                [13.0147531, 80.1744935],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_5e338fbe55a192a48156030bd5cb7bd1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee7b7bb5f83a6fea5be25d1c83edf0d9 = $(`<div id="html_ee7b7bb5f83a6fea5be25d1c83edf0d9" style="width: 100.0%; height: 100.0%;">Lemon Tree Hotel, Shimona, Chennai</div>`)[0];
+                popup_5e338fbe55a192a48156030bd5cb7bd1.setContent(html_ee7b7bb5f83a6fea5be25d1c83edf0d9);
+            
+        
+
+        marker_ce33b82af555b9a772d6222919a557c9.bindPopup(popup_5e338fbe55a192a48156030bd5cb7bd1)
+        ;
+
+        
+    
+    
+            var marker_a5a9dda615a2a9de596e6cfa801aca3b = L.marker(
+                [13.0554718, 80.2639706],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_25b6ed3fbde65054d78e5a93158ce4e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce482aa773d0320bfe9376e058d7f297 = $(`<div id="html_ce482aa773d0320bfe9376e058d7f297" style="width: 100.0%; height: 100.0%;">Taj Club House, Chennai</div>`)[0];
+                popup_25b6ed3fbde65054d78e5a93158ce4e0.setContent(html_ce482aa773d0320bfe9376e058d7f297);
+            
+        
+
+        marker_a5a9dda615a2a9de596e6cfa801aca3b.bindPopup(popup_25b6ed3fbde65054d78e5a93158ce4e0)
+        ;
+
+        
+    
+    
+            var marker_31f9024544c6d439b47c482ee82e3ebc = L.marker(
+                [11.728208850000001, 75.57197828274799],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_0a7ac3172ada2e213ba38f99097668bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8c745299ebf4460057fed79235c3eb7 = $(`<div id="html_e8c745299ebf4460057fed79235c3eb7" style="width: 100.0%; height: 100.0%;">Gokulam Park Sabari - Siruseri SIPCOT</div>`)[0];
+                popup_0a7ac3172ada2e213ba38f99097668bc.setContent(html_e8c745299ebf4460057fed79235c3eb7);
+            
+        
+
+        marker_31f9024544c6d439b47c482ee82e3ebc.bindPopup(popup_0a7ac3172ada2e213ba38f99097668bc)
+        ;
+
+        
+    
+    
+            var marker_16b60a4ef5e77a1addd5b6eebbc9e42a = L.marker(
+                [12.9866009, 80.1726357],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_8363fce44dca06d0580aee8e2a2bc260 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d56e4e30feb6d6370a5fceb93f21deb = $(`<div id="html_9d56e4e30feb6d6370a5fceb93f21deb" style="width: 100.0%; height: 100.0%;">Hotel Southern Comfort ( Chennai Airport )</div>`)[0];
+                popup_8363fce44dca06d0580aee8e2a2bc260.setContent(html_9d56e4e30feb6d6370a5fceb93f21deb);
+            
+        
+
+        marker_16b60a4ef5e77a1addd5b6eebbc9e42a.bindPopup(popup_8363fce44dca06d0580aee8e2a2bc260)
+        ;
+
+        
+    
+    
+            var marker_ab3f743062d3519457503ad5dad51da3 = L.marker(
+                [13.0400731, 80.2159247],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_113da4df2c1f05dfce6943f739dc4f25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13d605ad07d41f9da71f4a0f92ee6b35 = $(`<div id="html_13d605ad07d41f9da71f4a0f92ee6b35" style="width: 100.0%; height: 100.0%;">Rohaan Inns - UPAR Ashok Nagar</div>`)[0];
+                popup_113da4df2c1f05dfce6943f739dc4f25.setContent(html_13d605ad07d41f9da71f4a0f92ee6b35);
+            
+        
+
+        marker_ab3f743062d3519457503ad5dad51da3.bindPopup(popup_113da4df2c1f05dfce6943f739dc4f25)
+        ;
+
+        
+    
+    
+            var marker_a3b6a06b76abeef359c3a5f3bb819939 = L.marker(
+                [13.0448152, 80.2625938],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_ed5fe60aea0c445b123afa6d9170b57b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9788a9e1d5621e2c1e6c52ee03b4bfd9 = $(`<div id="html_9788a9e1d5621e2c1e6c52ee03b4bfd9" style="width: 100.0%; height: 100.0%;">Hotel President (Clarion Chennai)</div>`)[0];
+                popup_ed5fe60aea0c445b123afa6d9170b57b.setContent(html_9788a9e1d5621e2c1e6c52ee03b4bfd9);
+            
+        
+
+        marker_a3b6a06b76abeef359c3a5f3bb819939.bindPopup(popup_ed5fe60aea0c445b123afa6d9170b57b)
+        ;
+
+        
+    
+    
+            var marker_9c108d206e68e1975a1f838c1011191f = L.marker(
+                [13.0320131, 80.158304],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_0f41ad2c9bd87ebdde496d4db4cf5c99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2c9402adefbd6c2cc0711cc7196d200 = $(`<div id="html_f2c9402adefbd6c2cc0711cc7196d200" style="width: 100.0%; height: 100.0%;">Hotel Ashok Residency</div>`)[0];
+                popup_0f41ad2c9bd87ebdde496d4db4cf5c99.setContent(html_f2c9402adefbd6c2cc0711cc7196d200);
+            
+        
+
+        marker_9c108d206e68e1975a1f838c1011191f.bindPopup(popup_0f41ad2c9bd87ebdde496d4db4cf5c99)
+        ;
+
+        
+    
+    
+            var marker_1f4561280b5d5a12b1fb9b05954e0b45 = L.marker(
+                [13.0244783, 80.253937],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_ee6128f25a98d0e5021d6d6712e7692f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7eaa81cfd0375f97a6fa56174571e8d = $(`<div id="html_e7eaa81cfd0375f97a6fa56174571e8d" style="width: 100.0%; height: 100.0%;">Somerset Greenways Apartment | Rooms & Pool</div>`)[0];
+                popup_ee6128f25a98d0e5021d6d6712e7692f.setContent(html_e7eaa81cfd0375f97a6fa56174571e8d);
+            
+        
+
+        marker_1f4561280b5d5a12b1fb9b05954e0b45.bindPopup(popup_ee6128f25a98d0e5021d6d6712e7692f)
+        ;
+
+        
+    
+    
+            var marker_b30f9b065b4caf51befcee93716ccd4c = L.marker(
+                [41.87856185, -87.66715388800594],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_6a4f5b8d245acae62405491bc99cf29b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e548c28e420527f6813b4033475f879 = $(`<div id="html_1e548c28e420527f6813b4033475f879" style="width: 100.0%; height: 100.0%;">The Park Chennai</div>`)[0];
+                popup_6a4f5b8d245acae62405491bc99cf29b.setContent(html_1e548c28e420527f6813b4033475f879);
+            
+        
+
+        marker_b30f9b065b4caf51befcee93716ccd4c.bindPopup(popup_6a4f5b8d245acae62405491bc99cf29b)
+        ;
+
+        
+    
+    
+            var marker_8873e3b843c72ff89f56aa045e78a654 = L.marker(
+                [12.9536397, 80.1628158],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_04e840b155ac3c6c1cd40c77265fb982 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e20e274eb6f5b29ccd4c48f53c0a0217 = $(`<div id="html_e20e274eb6f5b29ccd4c48f53c0a0217" style="width: 100.0%; height: 100.0%;">Raaj Bhaavan Clarks Inn , Chennai</div>`)[0];
+                popup_04e840b155ac3c6c1cd40c77265fb982.setContent(html_e20e274eb6f5b29ccd4c48f53c0a0217);
+            
+        
+
+        marker_8873e3b843c72ff89f56aa045e78a654.bindPopup(popup_04e840b155ac3c6c1cd40c77265fb982)
+        ;
+
+        
+    
+    
+            var marker_d3cb2914d25a7b21556e5e45618962ae = L.marker(
+                [13.005115199999999, 80.19349521206897],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_60d0df62fe8ef3191f2975af8b7182f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28a6af00f5206e6a5a454d2c3bddbc19 = $(`<div id="html_28a6af00f5206e6a5a454d2c3bddbc19" style="width: 100.0%; height: 100.0%;">The Mount Manor</div>`)[0];
+                popup_60d0df62fe8ef3191f2975af8b7182f7.setContent(html_28a6af00f5206e6a5a454d2c3bddbc19);
+            
+        
+
+        marker_d3cb2914d25a7b21556e5e45618962ae.bindPopup(popup_60d0df62fe8ef3191f2975af8b7182f7)
+        ;
+
+        
+    
+    
+            var marker_182a36178dbdc42da5db87c7e25d5816 = L.marker(
+                [13.0832149, 80.2379864],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_010438bfe4864ed270d18c0cbe1f5e35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3b3ea5c2200be091238685dcf63dc97 = $(`<div id="html_f3b3ea5c2200be091238685dcf63dc97" style="width: 100.0%; height: 100.0%;">The Pride Hotel Chennai</div>`)[0];
+                popup_010438bfe4864ed270d18c0cbe1f5e35.setContent(html_f3b3ea5c2200be091238685dcf63dc97);
+            
+        
+
+        marker_182a36178dbdc42da5db87c7e25d5816.bindPopup(popup_010438bfe4864ed270d18c0cbe1f5e35)
+        ;
+
+        
+    
+    
+            var marker_83810c2a30a4d722bb785fb45b76ce0d = L.marker(
+                [13.0734496, 80.1948363],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_702813a1c8bab972354d69de44e3204f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_474b1b69d74c8ca6f604287ef3ed08a5 = $(`<div id="html_474b1b69d74c8ca6f604287ef3ed08a5" style="width: 100.0%; height: 100.0%;">Comfort Park Inn Unit of Prohotel</div>`)[0];
+                popup_702813a1c8bab972354d69de44e3204f.setContent(html_474b1b69d74c8ca6f604287ef3ed08a5);
+            
+        
+
+        marker_83810c2a30a4d722bb785fb45b76ce0d.bindPopup(popup_702813a1c8bab972354d69de44e3204f)
+        ;
+
+        
+    
+    
+            var marker_bc1d53521c5539b9e2855ea6cc7ad3d0 = L.marker(
+                [10.99001, 77.85194],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_281b6484e92a75d4c1a662796e58561a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78f3177d5ae15f3879f61d8c1188fc54 = $(`<div id="html_78f3177d5ae15f3879f61d8c1188fc54" style="width: 100.0%; height: 100.0%;">Ginger Chennai, Vadapalani</div>`)[0];
+                popup_281b6484e92a75d4c1a662796e58561a.setContent(html_78f3177d5ae15f3879f61d8c1188fc54);
+            
+        
+
+        marker_bc1d53521c5539b9e2855ea6cc7ad3d0.bindPopup(popup_281b6484e92a75d4c1a662796e58561a)
+        ;
+
+        
+    
+    
+            var marker_8d7184d6388c7c3373fbcee237ccdea3 = L.marker(
+                [13.0893275, 80.2550331],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_58f2ed37de02e08c024eaa5abcdabca4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f7c26c5e4fae86d3abf2d7b27e421c7 = $(`<div id="html_5f7c26c5e4fae86d3abf2d7b27e421c7" style="width: 100.0%; height: 100.0%;">Hotel Abu Palace</div>`)[0];
+                popup_58f2ed37de02e08c024eaa5abcdabca4.setContent(html_5f7c26c5e4fae86d3abf2d7b27e421c7);
+            
+        
+
+        marker_8d7184d6388c7c3373fbcee237ccdea3.bindPopup(popup_58f2ed37de02e08c024eaa5abcdabca4)
+        ;
+
+        
+    
+    
+            var marker_1d7cd39a427c01f5e1833070b3c46c2e = L.marker(
+                [12.98515725, 80.24097476670357],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_752a5b4ae1f7fbe178a519b080279a4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4bd445582c6404ef8b93ddb654fe1c8 = $(`<div id="html_c4bd445582c6404ef8b93ddb654fe1c8" style="width: 100.0%; height: 100.0%;">Ginger Chennai</div>`)[0];
+                popup_752a5b4ae1f7fbe178a519b080279a4a.setContent(html_c4bd445582c6404ef8b93ddb654fe1c8);
+            
+        
+
+        marker_1d7cd39a427c01f5e1833070b3c46c2e.bindPopup(popup_752a5b4ae1f7fbe178a519b080279a4a)
+        ;
+
+        
+    
+    
+            var marker_b628a4384bc48818e5e09d472fc14e32 = L.marker(
+                [13.00581, 80.2474398],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_ecc8daa153c2460f26b94f60e6d55cec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_957cb23d37011b6801695a568ba5ca81 = $(`<div id="html_957cb23d37011b6801695a568ba5ca81" style="width: 100.0%; height: 100.0%;">PP Residency</div>`)[0];
+                popup_ecc8daa153c2460f26b94f60e6d55cec.setContent(html_957cb23d37011b6801695a568ba5ca81);
+            
+        
+
+        marker_b628a4384bc48818e5e09d472fc14e32.bindPopup(popup_ecc8daa153c2460f26b94f60e6d55cec)
+        ;
+
+        
+    
+    
+            var marker_25fc5e0da9ec991e11504d413664279f = L.marker(
+                [13.0443237, 80.2498455],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_e091b98994fd57c01b1c11d82a6df4f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7a74c3cb874d134b0e68cf1c832e8e9 = $(`<div id="html_a7a74c3cb874d134b0e68cf1c832e8e9" style="width: 100.0%; height: 100.0%;">Raj Park Chennai</div>`)[0];
+                popup_e091b98994fd57c01b1c11d82a6df4f4.setContent(html_a7a74c3cb874d134b0e68cf1c832e8e9);
+            
+        
+
+        marker_25fc5e0da9ec991e11504d413664279f.bindPopup(popup_e091b98994fd57c01b1c11d82a6df4f4)
+        ;
+
+        
+    
+    
+            var marker_33d9e3d804afb2bc493142b93b9a0877 = L.marker(
+                [13.0721399, 80.2205453],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_15264d86a06a8dc870feb2920a4ba7b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14258c74f5e69d95e979b18f37a126fb = $(`<div id="html_14258c74f5e69d95e979b18f37a126fb" style="width: 100.0%; height: 100.0%;">BLU IRIS</div>`)[0];
+                popup_15264d86a06a8dc870feb2920a4ba7b7.setContent(html_14258c74f5e69d95e979b18f37a126fb);
+            
+        
+
+        marker_33d9e3d804afb2bc493142b93b9a0877.bindPopup(popup_15264d86a06a8dc870feb2920a4ba7b7)
+        ;
+
+        
+    
+    
+            var marker_4982af65a0073680cc2072faca93086a = L.marker(
+                [13.0620626, 80.240487],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_c2dbd739e464c1752e8ea86456aba2ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc706e244bfd591f58581aa2de029c82 = $(`<div id="html_fc706e244bfd591f58581aa2de029c82" style="width: 100.0%; height: 100.0%;">The Belstead</div>`)[0];
+                popup_c2dbd739e464c1752e8ea86456aba2ca.setContent(html_fc706e244bfd591f58581aa2de029c82);
+            
+        
+
+        marker_4982af65a0073680cc2072faca93086a.bindPopup(popup_c2dbd739e464c1752e8ea86456aba2ca)
+        ;
+
+        
+    
+    
+            var marker_04eacb2b27e4d2a9f757dd4f885bf070 = L.marker(
+                [12.8439952, 80.0608336],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_f08bec34df55794d635bfc645cc4cf1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cab1a4daec497f6615f64fd1e4fa2804 = $(`<div id="html_cab1a4daec497f6615f64fd1e4fa2804" style="width: 100.0%; height: 100.0%;">KK Inn Like a 3</div>`)[0];
+                popup_f08bec34df55794d635bfc645cc4cf1f.setContent(html_cab1a4daec497f6615f64fd1e4fa2804);
+            
+        
+
+        marker_04eacb2b27e4d2a9f757dd4f885bf070.bindPopup(popup_f08bec34df55794d635bfc645cc4cf1f)
+        ;
+
+        
+    
+    
+            var marker_2fa6548ae07a034d7f87aa80426ae5d2 = L.marker(
+                [13.0620626, 80.240487],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_2211f81c028a533ff9e86d075357fdc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe22e076dfebf1f48bb12a6851b68659 = $(`<div id="html_fe22e076dfebf1f48bb12a6851b68659" style="width: 100.0%; height: 100.0%;">Harrisons</div>`)[0];
+                popup_2211f81c028a533ff9e86d075357fdc4.setContent(html_fe22e076dfebf1f48bb12a6851b68659);
+            
+        
+
+        marker_2fa6548ae07a034d7f87aa80426ae5d2.bindPopup(popup_2211f81c028a533ff9e86d075357fdc4)
+        ;
+
+        
+    
+    
+            var marker_3acec1e183537ce342b929742769afed = L.marker(
+                [12.9174426, 80.21649018230858],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_56aef8a20e888f19064e8e629aee4f8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9e9c95e4c22af32902eecbdd3a98d79 = $(`<div id="html_e9e9c95e4c22af32902eecbdd3a98d79" style="width: 100.0%; height: 100.0%;">Novotel Chennai OMR - An Accor Brand</div>`)[0];
+                popup_56aef8a20e888f19064e8e629aee4f8a.setContent(html_e9e9c95e4c22af32902eecbdd3a98d79);
+            
+        
+
+        marker_3acec1e183537ce342b929742769afed.bindPopup(popup_56aef8a20e888f19064e8e629aee4f8a)
+        ;
+
+        
+    
+    
+            var marker_a71665537839f37c79b133fd9354bfe5 = L.marker(
+                [13.020817, 80.2239536],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_5ad73a648a9955948b5631c746592c88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2042d789542df066fec80837499c3c52 = $(`<div id="html_2042d789542df066fec80837499c3c52" style="width: 100.0%; height: 100.0%;">Ramada Plaza by Wyndham Chennai</div>`)[0];
+                popup_5ad73a648a9955948b5631c746592c88.setContent(html_2042d789542df066fec80837499c3c52);
+            
+        
+
+        marker_a71665537839f37c79b133fd9354bfe5.bindPopup(popup_5ad73a648a9955948b5631c746592c88)
+        ;
+
+        
+    
+    
+            var marker_7cb0da9209d05c47db1939df027a774a = L.marker(
+                [13.0620626, 80.240487],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_b067cee10322541f34bde813c6f0448c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d7ae637c56e83c49b8135ac3e2a9f81 = $(`<div id="html_5d7ae637c56e83c49b8135ac3e2a9f81" style="width: 100.0%; height: 100.0%;">UPAR Nungambakkam</div>`)[0];
+                popup_b067cee10322541f34bde813c6f0448c.setContent(html_5d7ae637c56e83c49b8135ac3e2a9f81);
+            
+        
+
+        marker_7cb0da9209d05c47db1939df027a774a.bindPopup(popup_b067cee10322541f34bde813c6f0448c)
+        ;
+
+        
+    
+    
+            var marker_c91c54feb8471535bb3c1992c97030b0 = L.marker(
+                [12.9174426, 80.21649018230858],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_c7bc30624cf11e87136f83e8418949d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5319a35461cc2d8b44a2b870eec2ffea = $(`<div id="html_5319a35461cc2d8b44a2b870eec2ffea" style="width: 100.0%; height: 100.0%;">The Centrepoint OMR</div>`)[0];
+                popup_c7bc30624cf11e87136f83e8418949d3.setContent(html_5319a35461cc2d8b44a2b870eec2ffea);
+            
+        
+
+        marker_c91c54feb8471535bb3c1992c97030b0.bindPopup(popup_c7bc30624cf11e87136f83e8418949d3)
+        ;
+
+        
+    
+    
+            var marker_25a60173d61b81d8ca9322a7d0a0d830 = L.marker(
+                [11.728208850000001, 75.57197828274799],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_6930523376efc5f924022082eddab029 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9052f8baa242266bf906c056da98cbd4 = $(`<div id="html_9052f8baa242266bf906c056da98cbd4" style="width: 100.0%; height: 100.0%;">Ginger Chennai OMR</div>`)[0];
+                popup_6930523376efc5f924022082eddab029.setContent(html_9052f8baa242266bf906c056da98cbd4);
+            
+        
+
+        marker_25a60173d61b81d8ca9322a7d0a0d830.bindPopup(popup_6930523376efc5f924022082eddab029)
+        ;
+
+        
+    
+    
+            var marker_6c1ca7517fc5dff437044e6cace1e51a = L.marker(
+                [12.7871437, 80.219987],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_51b286dfdd15d3825b190836c8182bb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d82e13ec2a465f7cc08dd19ad7a1b1f5 = $(`<div id="html_d82e13ec2a465f7cc08dd19ad7a1b1f5" style="width: 100.0%; height: 100.0%;">Mermaid Resorts & Banquets</div>`)[0];
+                popup_51b286dfdd15d3825b190836c8182bb3.setContent(html_d82e13ec2a465f7cc08dd19ad7a1b1f5);
+            
+        
+
+        marker_6c1ca7517fc5dff437044e6cace1e51a.bindPopup(popup_51b286dfdd15d3825b190836c8182bb3)
+        ;
+
+        
+    
+    
+            var marker_b9d579faf441cdffb9505124e9dd5298 = L.marker(
+                [12.9536397, 80.1628158],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_6111559cc1179899d62b3678059cfdbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2b9655df1a34df9db32c2fc7f650763 = $(`<div id="html_a2b9655df1a34df9db32c2fc7f650763" style="width: 100.0%; height: 100.0%;">Holiday Inn Express Chennai OMR Thoraipakkam</div>`)[0];
+                popup_6111559cc1179899d62b3678059cfdbc.setContent(html_a2b9655df1a34df9db32c2fc7f650763);
+            
+        
+
+        marker_b9d579faf441cdffb9505124e9dd5298.bindPopup(popup_6111559cc1179899d62b3678059cfdbc)
+        ;
+
+        
+    
+    
+            var marker_a94d0b946a888a98f8ee8b63d247ea07 = L.marker(
+                [13.00645, 80.2577791],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_65c91d9843e5261a8f408886a279452e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22a41f81bac58710d2085754c15a6765 = $(`<div id="html_22a41f81bac58710d2085754c15a6765" style="width: 100.0%; height: 100.0%;">Keys Select by Lemon Tree Hotels, Katti-Ma, Chennai</div>`)[0];
+                popup_65c91d9843e5261a8f408886a279452e.setContent(html_22a41f81bac58710d2085754c15a6765);
+            
+        
+
+        marker_a94d0b946a888a98f8ee8b63d247ea07.bindPopup(popup_65c91d9843e5261a8f408886a279452e)
+        ;
+
+        
+    
+    
+            var marker_ead247dc0e077082e1308a3bd2c58468 = L.marker(
+                [-37.6460395, 145.3753155],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_ec930cea6a195e0eaccd6b6728e3d02a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3cb756455fefa001910c05888d2429b = $(`<div id="html_d3cb756455fefa001910c05888d2429b" style="width: 100.0%; height: 100.0%;">Bloom Hub Guindy</div>`)[0];
+                popup_ec930cea6a195e0eaccd6b6728e3d02a.setContent(html_d3cb756455fefa001910c05888d2429b);
+            
+        
+
+        marker_ead247dc0e077082e1308a3bd2c58468.bindPopup(popup_ec930cea6a195e0eaccd6b6728e3d02a)
+        ;
+
+        
+    
+    
+            var marker_d6c249eba7f1565098c00bf5f509cbd6 = L.marker(
+                [-37.6460395, 145.3753155],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_2cee8d324a38a2f27fa2b88476b45c79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_211b6d08ff2ca4d038b3623580fc8655 = $(`<div id="html_211b6d08ff2ca4d038b3623580fc8655" style="width: 100.0%; height: 100.0%;">Le Royal Meridien</div>`)[0];
+                popup_2cee8d324a38a2f27fa2b88476b45c79.setContent(html_211b6d08ff2ca4d038b3623580fc8655);
+            
+        
+
+        marker_d6c249eba7f1565098c00bf5f509cbd6.bindPopup(popup_2cee8d324a38a2f27fa2b88476b45c79)
+        ;
+
+        
+    
+    
+            var marker_eb6bd4fc5138080e7a0f570f4e4d031b = L.marker(
+                [12.9858948, 80.2644215],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_8d55cd22cc330b067f2ac79bf5d665e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a094ff9961b8c0f2821cecec06f33b2e = $(`<div id="html_a094ff9961b8c0f2821cecec06f33b2e" style="width: 100.0%; height: 100.0%;">Holiday Inn Chennai OMR IT Expressway</div>`)[0];
+                popup_8d55cd22cc330b067f2ac79bf5d665e7.setContent(html_a094ff9961b8c0f2821cecec06f33b2e);
+            
+        
+
+        marker_eb6bd4fc5138080e7a0f570f4e4d031b.bindPopup(popup_8d55cd22cc330b067f2ac79bf5d665e7)
+        ;
+
+        
+    
+    
+            var marker_e7fd7bfa25709bf9afee7fe1d1b81471 = L.marker(
+                [12.8330267, 80.228884],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_6d5f46470abf9301a3e48ad6b895d40b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_293d7ad1237c9b8048148555204948cf = $(`<div id="html_293d7ad1237c9b8048148555204948cf" style="width: 100.0%; height: 100.0%;">Novotel Chennai Sipcot - An Accor Brand</div>`)[0];
+                popup_6d5f46470abf9301a3e48ad6b895d40b.setContent(html_293d7ad1237c9b8048148555204948cf);
+            
+        
+
+        marker_e7fd7bfa25709bf9afee7fe1d1b81471.bindPopup(popup_6d5f46470abf9301a3e48ad6b895d40b)
+        ;
+
+        
+    
+    
+            var marker_36067f8d89aca86775e01a52b1014f5f = L.marker(
+                [12.9174426, 80.21649018230858],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_37f2e49dfd1c48cc73830cb031872b47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7197ef026545389540e62f0f496dfaa3 = $(`<div id="html_7197ef026545389540e62f0f496dfaa3" style="width: 100.0%; height: 100.0%;">Vivanta Chennai, IT Expressway</div>`)[0];
+                popup_37f2e49dfd1c48cc73830cb031872b47.setContent(html_7197ef026545389540e62f0f496dfaa3);
+            
+        
+
+        marker_36067f8d89aca86775e01a52b1014f5f.bindPopup(popup_37f2e49dfd1c48cc73830cb031872b47)
+        ;
+
+        
+    
+    
+            var marker_a04df3067df9d86656fbbc2c10077ea6 = L.marker(
+                [13.0734496, 80.1948363],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_f4d9f5e87e467957fb7ec5a8a52ae9d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cff9045dda50ca46e599da6c01130cd5 = $(`<div id="html_cff9045dda50ca46e599da6c01130cd5" style="width: 100.0%; height: 100.0%;">Radha Regent - A Sarovar Hotel</div>`)[0];
+                popup_f4d9f5e87e467957fb7ec5a8a52ae9d7.setContent(html_cff9045dda50ca46e599da6c01130cd5);
+            
+        
+
+        marker_a04df3067df9d86656fbbc2c10077ea6.bindPopup(popup_f4d9f5e87e467957fb7ec5a8a52ae9d7)
+        ;
+
+        
+    
+    
+            var marker_3093b413aeb823eb870990152b94b29f = L.marker(
+                [13.0286286, 80.240256],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_e5b766f9b5ba68474e3b1a86b583bf8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bb6e54282ea6b08639d581094810f84 = $(`<div id="html_8bb6e54282ea6b08639d581094810f84" style="width: 100.0%; height: 100.0%;">Townhouse 1067 Orchid Residency Nandanam</div>`)[0];
+                popup_e5b766f9b5ba68474e3b1a86b583bf8f.setContent(html_8bb6e54282ea6b08639d581094810f84);
+            
+        
+
+        marker_3093b413aeb823eb870990152b94b29f.bindPopup(popup_e5b766f9b5ba68474e3b1a86b583bf8f)
+        ;
+
+        
+    
+    
+            var marker_74f437d03d4493f35677c192fe9c5feb = L.marker(
+                [10.99001, 77.85194],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_0e17f55bd08ea0b10b10b569517c1032 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a0d5bbd531f9698bf7a747230646d21 = $(`<div id="html_9a0d5bbd531f9698bf7a747230646d21" style="width: 100.0%; height: 100.0%;">CANYON SUN</div>`)[0];
+                popup_0e17f55bd08ea0b10b10b569517c1032.setContent(html_9a0d5bbd531f9698bf7a747230646d21);
+            
+        
+
+        marker_74f437d03d4493f35677c192fe9c5feb.bindPopup(popup_0e17f55bd08ea0b10b10b569517c1032)
+        ;
+
+        
+    
+    
+            var marker_8f4efdb589b701f2ac7e69d5373d8a5b = L.marker(
+                [12.9229928, 80.1882897],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_4ba979f7554601320bbaaebdaf40d2fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebe9720f743b0a69ee0d34f347ccc918 = $(`<div id="html_ebe9720f743b0a69ee0d34f347ccc918" style="width: 100.0%; height: 100.0%;">Super OYO Collection O Orchid Residency Medavakkam</div>`)[0];
+                popup_4ba979f7554601320bbaaebdaf40d2fe.setContent(html_ebe9720f743b0a69ee0d34f347ccc918);
+            
+        
+
+        marker_8f4efdb589b701f2ac7e69d5373d8a5b.bindPopup(popup_4ba979f7554601320bbaaebdaf40d2fe)
+        ;
+
+        
+    
+    
+            var marker_04babe25276c3d63507ee120788398ef = L.marker(
+                [13.0087095, 80.2203646],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_bd23a00ade272db1c379e875a18462c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbbbc038b2e0483229fcedf3522e9893 = $(`<div id="html_fbbbc038b2e0483229fcedf3522e9893" style="width: 100.0%; height: 100.0%;">Hilton Chennai</div>`)[0];
+                popup_bd23a00ade272db1c379e875a18462c6.setContent(html_fbbbc038b2e0483229fcedf3522e9893);
+            
+        
+
+        marker_04babe25276c3d63507ee120788398ef.bindPopup(popup_bd23a00ade272db1c379e875a18462c6)
+        ;
+
+        
+    
+    
+            var marker_2cd3da64fb5d447265a0197718593cdf = L.marker(
+                [13.0338602, 80.2545491],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_8cbc834e2a2bbafbfd77b967393aaf1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12d0c890111f0baee43b0a4df3b7c4a2 = $(`<div id="html_12d0c890111f0baee43b0a4df3b7c4a2" style="width: 100.0%; height: 100.0%;">The Raintree St. Marys Road</div>`)[0];
+                popup_8cbc834e2a2bbafbfd77b967393aaf1f.setContent(html_12d0c890111f0baee43b0a4df3b7c4a2);
+            
+        
+
+        marker_2cd3da64fb5d447265a0197718593cdf.bindPopup(popup_8cbc834e2a2bbafbfd77b967393aaf1f)
+        ;
+
+        
+    
+    
+            var marker_e2145a930a3c0570675abc45de995d95 = L.marker(
+                [12.9304748, 80.2077692],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_40ee5994b9766ec6dd7ea2485b971352 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e1b5f0f9664b3fbf6554ae26c19ea61 = $(`<div id="html_0e1b5f0f9664b3fbf6554ae26c19ea61" style="width: 100.0%; height: 100.0%;">Iris Comfort Inn | Rooms in a Homestay</div>`)[0];
+                popup_40ee5994b9766ec6dd7ea2485b971352.setContent(html_0e1b5f0f9664b3fbf6554ae26c19ea61);
+            
+        
+
+        marker_e2145a930a3c0570675abc45de995d95.bindPopup(popup_40ee5994b9766ec6dd7ea2485b971352)
+        ;
+
+        
+    
+    
+            var marker_fcfe4b47f5ea1e7db00fe7ba356debeb = L.marker(
+                [13.0554718, 80.2639706],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_5641d43c300d4d1929a8ef4b5a00fa3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8839c8a4ed41965d4ec600a0ce253560 = $(`<div id="html_8839c8a4ed41965d4ec600a0ce253560" style="width: 100.0%; height: 100.0%;">OYO Townhouse 1116 US consulate</div>`)[0];
+                popup_5641d43c300d4d1929a8ef4b5a00fa3a.setContent(html_8839c8a4ed41965d4ec600a0ce253560);
+            
+        
+
+        marker_fcfe4b47f5ea1e7db00fe7ba356debeb.bindPopup(popup_5641d43c300d4d1929a8ef4b5a00fa3a)
+        ;
+
+        
+    
+    
+            var marker_232464de9e8a5160d5a7d59038ee6956 = L.marker(
+                [12.9536397, 80.1628158],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_cb41441a4c321cc77c58a9232a29e992 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f6d285689f2cd20f2a57facdef6fc32 = $(`<div id="html_9f6d285689f2cd20f2a57facdef6fc32" style="width: 100.0%; height: 100.0%;">Essentia Premier Hotel</div>`)[0];
+                popup_cb41441a4c321cc77c58a9232a29e992.setContent(html_9f6d285689f2cd20f2a57facdef6fc32);
+            
+        
+
+        marker_232464de9e8a5160d5a7d59038ee6956.bindPopup(popup_cb41441a4c321cc77c58a9232a29e992)
+        ;
+
+        
+    
+    
+            var marker_3fb7e62f131ccba7a815f534c41b4b0a = L.marker(
+                [12.7958223, 80.0269097],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_c0e357e69d169d8e80981d9543ad3b3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_befb0441bda170facdd06df51835c7b1 = $(`<div id="html_befb0441bda170facdd06df51835c7b1" style="width: 100.0%; height: 100.0%;">Hotel Bakya Slot - Maraimalai Nagar</div>`)[0];
+                popup_c0e357e69d169d8e80981d9543ad3b3b.setContent(html_befb0441bda170facdd06df51835c7b1);
+            
+        
+
+        marker_3fb7e62f131ccba7a815f534c41b4b0a.bindPopup(popup_c0e357e69d169d8e80981d9543ad3b3b)
+        ;
+
+        
+    
+    
+            var marker_6493e28ee1bf07aec7758f50a514a713 = L.marker(
+                [10.99001, 77.85194],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_7b73febdecb03e8d2e00226ae834d48a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_808c18e16e75ee8fb53eed79e8578eb3 = $(`<div id="html_808c18e16e75ee8fb53eed79e8578eb3" style="width: 100.0%; height: 100.0%;">Greenpark Chennai</div>`)[0];
+                popup_7b73febdecb03e8d2e00226ae834d48a.setContent(html_808c18e16e75ee8fb53eed79e8578eb3);
+            
+        
+
+        marker_6493e28ee1bf07aec7758f50a514a713.bindPopup(popup_7b73febdecb03e8d2e00226ae834d48a)
+        ;
+
+        
+    
+    
+            var marker_48c9641876da15a84531d571daf15fad = L.marker(
+                [12.9858005, 80.2598],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_0a554ed7064a2139771be18fa979aa3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b34f150d8e66d90b6e57c30c6c20e04 = $(`<div id="html_6b34f150d8e66d90b6e57c30c6c20e04" style="width: 100.0%; height: 100.0%;">UPAR Uthandi, ECR Like a 3</div>`)[0];
+                popup_0a554ed7064a2139771be18fa979aa3c.setContent(html_6b34f150d8e66d90b6e57c30c6c20e04);
+            
+        
+
+        marker_48c9641876da15a84531d571daf15fad.bindPopup(popup_0a554ed7064a2139771be18fa979aa3c)
+        ;
+
+        
+    
+    
+            var marker_6c0eee388a06db72112019561fbca411 = L.marker(
+                [13.0728321, 80.2576906],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_a7c6f1f1c41f970fd976d0af7911db7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6ac4a885f4a898f7af92b2101a07400 = $(`<div id="html_e6ac4a885f4a898f7af92b2101a07400" style="width: 100.0%; height: 100.0%;">Ramada by Wyndham Chennai Egmore</div>`)[0];
+                popup_a7c6f1f1c41f970fd976d0af7911db7b.setContent(html_e6ac4a885f4a898f7af92b2101a07400);
+            
+        
+
+        marker_6c0eee388a06db72112019561fbca411.bindPopup(popup_a7c6f1f1c41f970fd976d0af7911db7b)
+        ;
+
+        
+    
+    
+            var marker_ddac8c753565586f49779f85ca74d77b = L.marker(
+                [12.7877434, 80.2509334],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_9dc7b9df67cf5da81204885ea3ec5bf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a0486b829b86130e05d4b61c9cb6bc6 = $(`<div id="html_9a0486b829b86130e05d4b61c9cb6bc6" style="width: 100.0%; height: 100.0%;">Taj Fisherman's Cove Resort & Spa, Chennai</div>`)[0];
+                popup_9dc7b9df67cf5da81204885ea3ec5bf5.setContent(html_9a0486b829b86130e05d4b61c9cb6bc6);
+            
+        
+
+        marker_ddac8c753565586f49779f85ca74d77b.bindPopup(popup_9dc7b9df67cf5da81204885ea3ec5bf5)
+        ;
+
+        
+    
+    
+            var marker_311ec3f485d80d7e647c68ababb28935 = L.marker(
+                [12.9174426, 80.21649018230858],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_74933e866bc7537a3ffe2880ec54a819 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5df80cb31df0f119d1dbb29ec79baa6 = $(`<div id="html_b5df80cb31df0f119d1dbb29ec79baa6" style="width: 100.0%; height: 100.0%;">Fairfield by Marriott Chennai OMR</div>`)[0];
+                popup_74933e866bc7537a3ffe2880ec54a819.setContent(html_b5df80cb31df0f119d1dbb29ec79baa6);
+            
+        
+
+        marker_311ec3f485d80d7e647c68ababb28935.bindPopup(popup_74933e866bc7537a3ffe2880ec54a819)
+        ;
+
+        
+    
+    
+            var marker_3cf3509ba19db67bfd27bfa9a7027c00 = L.marker(
+                [13.0320131, 80.158304],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_1e8d751e26dbb87fac75c0894a2c5629 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f297dc6163e6d329dcc1446461e13dd = $(`<div id="html_0f297dc6163e6d329dcc1446461e13dd" style="width: 100.0%; height: 100.0%;">Flagship Inn34 Porur</div>`)[0];
+                popup_1e8d751e26dbb87fac75c0894a2c5629.setContent(html_0f297dc6163e6d329dcc1446461e13dd);
+            
+        
+
+        marker_3cf3509ba19db67bfd27bfa9a7027c00.bindPopup(popup_1e8d751e26dbb87fac75c0894a2c5629)
+        ;
+
+        
+    
+    
+            var marker_0a4f97c322498870ca9790d0f39e51f6 = L.marker(
+                [13.0294483, 80.2309064],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_82f785eebb348917deaf6b9480a97689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a5803e1f27cbb34d510c2298549b497 = $(`<div id="html_7a5803e1f27cbb34d510c2298549b497" style="width: 100.0%; height: 100.0%;">The Accord Metropolitan</div>`)[0];
+                popup_82f785eebb348917deaf6b9480a97689.setContent(html_7a5803e1f27cbb34d510c2298549b497);
+            
+        
+
+        marker_0a4f97c322498870ca9790d0f39e51f6.bindPopup(popup_82f785eebb348917deaf6b9480a97689)
+        ;
+
+        
+    
+    
+            var marker_745d003e6bf0d8fde82ebe2b304620d4 = L.marker(
+                [13.0728321, 80.2576906],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_09ad8de4050d9b7dbe878ef7fa6a9b53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8c411e9472413845c3d1f72031c34b3 = $(`<div id="html_c8c411e9472413845c3d1f72031c34b3" style="width: 100.0%; height: 100.0%;">FORTEL</div>`)[0];
+                popup_09ad8de4050d9b7dbe878ef7fa6a9b53.setContent(html_c8c411e9472413845c3d1f72031c34b3);
+            
+        
+
+        marker_745d003e6bf0d8fde82ebe2b304620d4.bindPopup(popup_09ad8de4050d9b7dbe878ef7fa6a9b53)
+        ;
+
+        
+    
+    
+            var marker_62aaff09d00299bc19fbdc6be27bb485 = L.marker(
+                [13.0620626, 80.240487],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_3ca5b5f1cbb415d59874c800da96ab34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39d6555c2cd5687c7727b950c626ed24 = $(`<div id="html_39d6555c2cd5687c7727b950c626ed24" style="width: 100.0%; height: 100.0%;">Park Elanza</div>`)[0];
+                popup_3ca5b5f1cbb415d59874c800da96ab34.setContent(html_39d6555c2cd5687c7727b950c626ed24);
+            
+        
+
+        marker_62aaff09d00299bc19fbdc6be27bb485.bindPopup(popup_3ca5b5f1cbb415d59874c800da96ab34)
+        ;
+
+        
+    
+    
+            var marker_aa5ddfc8e87817d5aee01061505927f2 = L.marker(
+                [13.0294483, 80.2309064],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_5b857386b6aa36e4f4a716b04e700f79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_820d0b7ffe2e5eeb1f9ef27299b4d8f1 = $(`<div id="html_820d0b7ffe2e5eeb1f9ef27299b4d8f1" style="width: 100.0%; height: 100.0%;">Saravana's Golden Fruits Business Suites Like a 3</div>`)[0];
+                popup_5b857386b6aa36e4f4a716b04e700f79.setContent(html_820d0b7ffe2e5eeb1f9ef27299b4d8f1);
+            
+        
+
+        marker_aa5ddfc8e87817d5aee01061505927f2.bindPopup(popup_5b857386b6aa36e4f4a716b04e700f79)
+        ;
+
+        
+    
+    
+            var marker_64f1611afb72ca3b56fb5718ac2eda23 = L.marker(
+                [13.0294483, 80.2309064],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_2cf50e8a42b748385efb3b32cda63d59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6797cc8f718c13b8eefa0962d9c0c07f = $(`<div id="html_6797cc8f718c13b8eefa0962d9c0c07f" style="width: 100.0%; height: 100.0%;">The Residency Towers</div>`)[0];
+                popup_2cf50e8a42b748385efb3b32cda63d59.setContent(html_6797cc8f718c13b8eefa0962d9c0c07f);
+            
+        
+
+        marker_64f1611afb72ca3b56fb5718ac2eda23.bindPopup(popup_2cf50e8a42b748385efb3b32cda63d59)
+        ;
+
+        
+    
+    
+            var marker_23ec5a7e1e0f6dcb9db069e9f7c0339d = L.marker(
+                [13.0320131, 80.158304],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_5ffa4e0edffb66dc09ca7b36abdf833e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_645e87568f926316150d84736f218bc7 = $(`<div id="html_645e87568f926316150d84736f218bc7" style="width: 100.0%; height: 100.0%;">Grand Residence</div>`)[0];
+                popup_5ffa4e0edffb66dc09ca7b36abdf833e.setContent(html_645e87568f926316150d84736f218bc7);
+            
+        
+
+        marker_23ec5a7e1e0f6dcb9db069e9f7c0339d.bindPopup(popup_5ffa4e0edffb66dc09ca7b36abdf833e)
+        ;
+
+        
+    
+    
+            var marker_d1caa94fac243f3a2bdac9d9a94815c4 = L.marker(
+                [12.98515725, 80.24097476670357],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_77803b84946c729a5debbe6ec0e9546d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac067f881a02a9f1bbbaabd9cd0096b9 = $(`<div id="html_ac067f881a02a9f1bbbaabd9cd0096b9" style="width: 100.0%; height: 100.0%;">Taj Wellington Mews, Chennai</div>`)[0];
+                popup_77803b84946c729a5debbe6ec0e9546d.setContent(html_ac067f881a02a9f1bbbaabd9cd0096b9);
+            
+        
+
+        marker_d1caa94fac243f3a2bdac9d9a94815c4.bindPopup(popup_77803b84946c729a5debbe6ec0e9546d)
+        ;
+
+        
+    
+    
+            var marker_2b43aef512fc0ee0c01a0f972abe5c6c = L.marker(
+                [13.049207, 80.2242829],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_95af11bfa5fee0c002f0ff00e0f5de6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c155e0beb6b4122221220496d23f3b0 = $(`<div id="html_9c155e0beb6b4122221220496d23f3b0" style="width: 100.0%; height: 100.0%;">UPAR Hotels Cine City Kodambakkam</div>`)[0];
+                popup_95af11bfa5fee0c002f0ff00e0f5de6e.setContent(html_9c155e0beb6b4122221220496d23f3b0);
+            
+        
+
+        marker_2b43aef512fc0ee0c01a0f972abe5c6c.bindPopup(popup_95af11bfa5fee0c002f0ff00e0f5de6e)
+        ;
+
+        
+    
+    
+            var marker_a4090944aed0158e2974b4d0d543b976 = L.marker(
+                [41.87856185, -87.66715388800594],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_9e4afda2c391112b6387b346f62125e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14e45e327fe6bb660def1af56a4a8fdf = $(`<div id="html_14e45e327fe6bb660def1af56a4a8fdf" style="width: 100.0%; height: 100.0%;">Welcomhotel by ITC Hotels, Cathedral Road, Chennai</div>`)[0];
+                popup_9e4afda2c391112b6387b346f62125e1.setContent(html_14e45e327fe6bb660def1af56a4a8fdf);
+            
+        
+
+        marker_a4090944aed0158e2974b4d0d543b976.bindPopup(popup_9e4afda2c391112b6387b346f62125e1)
+        ;
+
+        
+    
+    
+            var marker_54976dec6908ee2266cea9cbced377ed = L.marker(
+                [-37.6460395, 145.3753155],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_5dde9e4aeb584fbfc759c2240a389ed5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e13932cc05bc515dc3dffe07a035378 = $(`<div id="html_2e13932cc05bc515dc3dffe07a035378" style="width: 100.0%; height: 100.0%;">Courtyard by Marriott Chennai</div>`)[0];
+                popup_5dde9e4aeb584fbfc759c2240a389ed5.setContent(html_2e13932cc05bc515dc3dffe07a035378);
+            
+        
+
+        marker_54976dec6908ee2266cea9cbced377ed.bindPopup(popup_5dde9e4aeb584fbfc759c2240a389ed5)
+        ;
+
+        
+    
+    
+            var marker_48a472a0b4fe595da6539c8332a26590 = L.marker(
+                [12.989815700000001, 80.10098654184341],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_3ac392db852c5711940dc232c5cd4d9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f55a1c3c04097ec1438bb037c8aab161 = $(`<div id="html_f55a1c3c04097ec1438bb037c8aab161" style="width: 100.0%; height: 100.0%;">AVENUE HOTEL -CHENNAI AIRPORT</div>`)[0];
+                popup_3ac392db852c5711940dc232c5cd4d9f.setContent(html_f55a1c3c04097ec1438bb037c8aab161);
+            
+        
+
+        marker_48a472a0b4fe595da6539c8332a26590.bindPopup(popup_3ac392db852c5711940dc232c5cd4d9f)
+        ;
+
+        
+    
+    
+            var marker_cf6d28061946a906135761b200a990d7 = L.marker(
+                [12.9536397, 80.1628158],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_a4c9f2f70907186ff66876e16522dd80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5263faf1d52ab66850b35053792ebd13 = $(`<div id="html_5263faf1d52ab66850b35053792ebd13" style="width: 100.0%; height: 100.0%;">The Townhall Unit of Prohotel</div>`)[0];
+                popup_a4c9f2f70907186ff66876e16522dd80.setContent(html_5263faf1d52ab66850b35053792ebd13);
+            
+        
+
+        marker_cf6d28061946a906135761b200a990d7.bindPopup(popup_a4c9f2f70907186ff66876e16522dd80)
+        ;
+
+        
+    
+    
+            var marker_07f4a1e2b99544e2ddbb494fda2378b6 = L.marker(
+                [13.0728321, 80.2576906],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_f904a214802db89601eeb6356372959e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e24800dac1643cff892b05ff3b68f61 = $(`<div id="html_8e24800dac1643cff892b05ff3b68f61" style="width: 100.0%; height: 100.0%;">Marina Inn</div>`)[0];
+                popup_f904a214802db89601eeb6356372959e.setContent(html_8e24800dac1643cff892b05ff3b68f61);
+            
+        
+
+        marker_07f4a1e2b99544e2ddbb494fda2378b6.bindPopup(popup_f904a214802db89601eeb6356372959e)
+        ;
+
+        
+    
+    
+            var marker_a84050b8e6e1e8f2b7fc05ff022dcdb7 = L.marker(
+                [13.049207, 80.2242829],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_2ce45408734526055f04d33da523051a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17532ceeffe506173e4c6d5c76324a98 = $(`<div id="html_17532ceeffe506173e4c6d5c76324a98" style="width: 100.0%; height: 100.0%;">Kans One</div>`)[0];
+                popup_2ce45408734526055f04d33da523051a.setContent(html_17532ceeffe506173e4c6d5c76324a98);
+            
+        
+
+        marker_a84050b8e6e1e8f2b7fc05ff022dcdb7.bindPopup(popup_2ce45408734526055f04d33da523051a)
+        ;
+
+        
+    
+    
+            var marker_f6d1b3fcab267161a0d32c6cae4e6f74 = L.marker(
+                [11.728208850000001, 75.57197828274799],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_ea3b4bd70e7efe013caa8cc27fff5cdc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85164369d0a4ef74a0d45ee3ca08a92f = $(`<div id="html_85164369d0a4ef74a0d45ee3ca08a92f" style="width: 100.0%; height: 100.0%;">ILARA Hotel & Spa</div>`)[0];
+                popup_ea3b4bd70e7efe013caa8cc27fff5cdc.setContent(html_85164369d0a4ef74a0d45ee3ca08a92f);
+            
+        
+
+        marker_f6d1b3fcab267161a0d32c6cae4e6f74.bindPopup(popup_ea3b4bd70e7efe013caa8cc27fff5cdc)
+        ;
+
+        
+    
+    
+            var marker_ae80440a2edabddd0be387680a890ae0 = L.marker(
+                [13.0443237, 80.2498455],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_dfb63367263dadbb1e1b11e879e7086d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2144d08b0be4715073a3fe676e4f8b6 = $(`<div id="html_a2144d08b0be4715073a3fe676e4f8b6" style="width: 100.0%; height: 100.0%;">Hyatt Regency Chennai</div>`)[0];
+                popup_dfb63367263dadbb1e1b11e879e7086d.setContent(html_a2144d08b0be4715073a3fe676e4f8b6);
+            
+        
+
+        marker_ae80440a2edabddd0be387680a890ae0.bindPopup(popup_dfb63367263dadbb1e1b11e879e7086d)
+        ;
+
+        
+    
+    
+            var marker_9ad2ae80ef78a1e2c3318b196c86cc7f = L.marker(
+                [-37.6460395, 145.3753155],
+                {}
+            ).addTo(marker_cluster_6f96d34b582385b4dd51416a07663572);
+        
+    
+        var popup_e3c2f6f4875c0a58ff1fe7e9b5c50276 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbd5162512a765542660931e4c7280e2 = $(`<div id="html_bbd5162512a765542660931e4c7280e2" style="width: 100.0%; height: 100.0%;">Hotel Crystal Park</div>`)[0];
+                popup_e3c2f6f4875c0a58ff1fe7e9b5c50276.setContent(html_bbd5162512a765542660931e4c7280e2);
+            
+        
+
+        marker_9ad2ae80ef78a1e2c3318b196c86cc7f.bindPopup(popup_e3c2f6f4875c0a58ff1fe7e9b5c50276)
+        ;
+
+        
+    
+    
+            marker_cluster_6f96d34b582385b4dd51416a07663572.addTo(map_2d5ed808b1c0001ab551121be0945872);
+        
+</script>
+</html>
